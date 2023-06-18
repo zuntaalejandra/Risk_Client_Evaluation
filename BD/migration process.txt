@@ -1,0 +1,16 @@
+
+-------------------
+
+			TO EXECUTE DATA MIGRATION TO THE MYSWL DATABASE 
+
+1)
+data_upload.xlsx
+se le debe de borrar la columna 1:ID, ya que es asignada automaticamente a la BD
+
+2)
+se crea un CSV con el archivo anterior, bajo el mismo nombre
+
+3)
+el CSV, es el que se usa para el IMPORT WIZARD desde la herramienta WorkBench
+
+-------------------
