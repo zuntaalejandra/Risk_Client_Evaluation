@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Risk Client Evaluation</title>
+  <link rel="stylesheet" type="text/css" href="static/css/styles.css" /> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h3>Risk Client Evaluation</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well">
+            <h3 class="demo_header">Register Client Data:</h3>    
+        <input type="text" id="sel_X1" value="0"></input>
+           <h5 class="demo_header">Sex:</h5>
+          <select id="sel_X2" value="1">
+            <option value="1">  Male  </option>
+            <option value="2">  Female  </option>
+        </select>          
+        <h5 class="demo_header">Education:</h5>
+        <select id="sel_X3" value="1">
+          <option value="1">  High School  </option>
+          <option value="2">  College  </option>
+          <option value="3">  Graduate  </option>
+        </select>
+        <h5 class="demo_header">Civil Status:</h5>    
+        <select id="sel_X4" value="1">
+         <option value="1">  Single  </option>
+         <option value="2">  Marriade  </option>
+         <option value="3">  Divorced  </option>
+        </select>          
+        <h5 class="demo_header">Age:</h5>    
+        <input type="text" id="sel_X5" value="0"></input>
+
+        <h5 class="demo_header">Payment Status 0:</h5>    
+        <select id="sel_X6" value="0">
+         <option value="-2">  -2  </option>
+         <option value="-1">  -1  </option>
+         <option value="0">  0  </option>
+         <option value="1">  1  </option>
+         <option value="2">  2  </option>
+        </select>          
+        <h5 class="demo_header">Payment Status 2:</h5>    
+        <select id="sel_X7" value="0">
+         <option value="-2">  -2  </option>
+         <option value="-1">  -1  </option>
+         <option value="0">  0  </option>
+         <option value="1">  1  </option>
+         <option value="2">  2  </option>
+        </select>          
+        <h5 class="demo_header">Payment Status 3:</h5>    
+        <select id="sel_X8" value="0">
+         <option value="-2">  -2  </option>
+         <option value="-1">  -1  </option>
+         <option value="0">  0  </option>
+         <option value="1">  1  </option>
+         <option value="2">  2  </option>
+        </select>          
+        <h5 class="demo_header">Payment Status 4:</h5>    
+        <select id="sel_X9" value="0">
+         <option value="-2">  -2  </option>
+         <option value="-1">  -1  </option>
+         <option value="0">  0  </option>
+         <option value="1">  1  </option>
+         <option value="2">  2  </option>
+        </select>          
+        <h5 class="demo_header">Payment Status 5:</h5>    
+        <select id="sel_X10" value="0">
+         <option value="-2">  -2  </option>
+         <option value="-1">  -1  </option>
+         <option value="0">  0  </option>
+         <option value="1">  1  </option>
+         <option value="2">  2  </option>
+        </select>          
+        <h5 class="demo_header">Payment Status 6:</h5>    
+        <select id="sel_X11" value="0">
+         <option value="-2">  -2  </option>
+         <option value="-1">  -1  </option>
+         <option value="0">  0  </option>
+         <option value="1">  1  </option>
+         <option value="2">  2  </option>
+        </select>          
+
+        <h5 class="demo_header">Debt Amount 1:</h5>    
+        <input type="text" id="sel_X12" value="0"></input>
+        <h5 class="demo_header">Debt Amount 2:</h5>    
+        <input type="text" id="sel_X13" value="0"></input>
+        <h5 class="demo_header">Debt Amount 3:</h5>    
+        <input type="text" id="sel_X14" value="0"></input>
+        <h5 class="demo_header">Debt Amount 4:</h5>    
+        <input type="text" id="sel_X15" value="0"></input>
+        <h5 class="demo_header">Debt Amount 5:</h5>    
+        <input type="text" id="sel_X16" value="0"></input>
+        <h5 class="demo_header">Debt Amount 6:</h5>    
+        <input type="text" id="sel_X17" value="0"></input>
+
+        <h5 class="demo_header">Payment Amount 1:</h5>    
+        <input type="text" id="sel_X18" value="0"></input>
+        <h5 class="demo_header">Payment Amount 2:</h5>    
+        <input type="text" id="sel_X19" value="0"></input>
+        <h5 class="demo_header">Payment Amount 3:</h5>    
+        <input type="text" id="sel_X20" value="0"></input>
+        <h5 class="demo_header">Payment Amount 4:</h5>    
+        <input type="text" id="sel_X21" value="0"></input>
+        <h5 class="demo_header">Payment Amount 5:</h5>    
+        <input type="text" id="sel_X22" value="0"></input>
+        <h5 class="demo_header">Payment Amount 6:</h5>    
+        <input type="text" id="sel_X23" value="0"></input>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h5 class="demo_header">Press Botton to Evaluate Client Risk</h5>    
+        <input type="submit" value="send all parameters here" />
+        <h5 class="demo_header"></h5>    
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="https://app.js"></script> -->
+  
+</body>
+
+</html>
+
