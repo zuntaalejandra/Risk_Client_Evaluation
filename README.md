@@ -18,9 +18,11 @@ Until now, the first needed files to consolidate access to cloud DB:
 
 # Still Missing
 
-1) Machine Learning stuff
+0) Migrate all data in cloud BD
+   
+2) Machine Learning stuff
 
-2) In index.html file, change the submit button code, so as to execute the API with cliend data, it must return the risk level of client (after run the Marchine Learning Model)
+3) In index.html file, change the submit button code, so as to execute the API with cliend data, it must return the risk level of client (after run the Marchine Learning Model)
 
-3) upload files to a web server in cloud 
+4) upload files to a web server in cloud 
 
